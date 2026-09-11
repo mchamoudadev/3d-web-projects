@@ -1,0 +1,67 @@
+{
+  "model": "bytedance/seedance-2.5",
+  "seed": 9042026,
+  "referencePolicy": "Pass the reference on every request; frame_images take precedence in OpenRouter. Identity is also carried through the edited first and last frames.",
+  "returnLastFrame": "Unsupported by current OpenRouter catalog; extract actual final frame locally.",
+  "clips": [
+    {
+      "id": "01",
+      "name": "The melon",
+      "firstFrame": "end-00.png",
+      "lastFrame": "end-01.png",
+      "referenceImage": "reference-melon.png",
+      "prompt": "Bright natural daylight product photography, white seamless studio surface with a soft warm sunlit glow from the upper left, gentle soft shadows, ultra clean, fresh, high-end beverage commercial, shallow depth of field, 50mm lens, subject positioned in the left half of the frame with clean empty white space on the right. No hands, no people, no text, no logos, no labels, no watermark. Composition is locked throughout all eight seconds. The entire watermelon stays at its exact first-frame position and scale: its right edge must never move past 53 percent of the image width. The right 45 percent stays completely empty white for a headline. Shot list. 0 to 2s: hold the whole watermelon still with dew glistening. 2 to 6s: an almost imperceptible one-degree camera micro-arc reveals only a tiny change in the rind highlights; continuously track the fruit so its silhouette, center and scale remain fixed in the left half. 6 to 8s: settle gradually into the provided last frame and hold. The effect is calm and nearly still. Keep the background and upper-left illumination constant. No dolly, no push-in, no zoom, no sweeping orbit, no sideways translation of the melon, no changing shadows or sun flares, no final reframing or snap. Avoid: hands, people, text, labels, logos, cluttered background, dark or moody lighting, cuts, camera shake, extra objects, cartoon style.",
+      "seed": 9042027,
+      "retryReason": "Attempt 1 moved the melon into the headline area; use a nearly locked camera and a new seed for this failed clip only."
+    },
+    {
+      "id": "02",
+      "name": "The cut",
+      "firstFrame": "end-01.png",
+      "lastFrame": "end-02.png",
+      "referenceImage": "reference-melon.png",
+      "prompt": "Bright natural daylight product photography, white seamless studio surface with a soft warm sunlit glow from the upper left, gentle soft shadows, ultra clean, fresh, high-end beverage commercial, shallow depth of field, 50mm lens, subject positioned in the left half of the frame with clean empty white space on the right. No hands, no people, no text, no logos, no labels, no watermark. Shot list. 0 to 1s: the whole watermelon sits still. 1 to 4s: a single thin slice separates cleanly from the front of the melon and tips forward gently onto the surface, revealing bright red flesh. 4 to 7s: the remaining melon divides cleanly into four wedges that slide apart slowly and settle into a shallow arc. 7 to 8s: everything comes to rest. Camera holds steady with a very slight slow push in. Clean and precise. Avoid: hands, people, text, labels, logos, cluttered background, dark or moody lighting, cuts, camera shake, extra objects, cartoon style."
+    },
+    {
+      "id": "03",
+      "name": "The lift",
+      "firstFrame": "end-02.png",
+      "lastFrame": "end-03.png",
+      "referenceImage": "reference-melon.png",
+      "prompt": "Bright natural daylight product photography, white seamless studio surface with a soft warm sunlit glow from the upper left, gentle soft shadows, ultra clean, fresh, high-end beverage commercial, shallow depth of field, 50mm lens, subject positioned in the left half of the frame with clean empty white space on the right. No hands, no people, no text, no logos, no labels, no watermark. Throughout the action, all cubes and all parts of the bottle remain left of 53 percent of image width. Keep the spiral narrow directly above the last-frame bottle position, with the right 45 percent completely empty white. Shot list. 0 to 1s: the four red-fleshed wedges and thin flat slice rest still as in the first frame. 1 to 3s: the red flesh divides into neat cubes. 3 to 6s: cubes rise slowly into a loose spiral, a few seeds drifting between. At the same time, the clear empty uncapped bottle slides gently into view from the lower left and stops beneath the spiral, exactly at the position in the last frame. The four empty rinds stay on the surface. The original thin flat slice remains beside the bottle, untouched. 6 to 8s: the spiral floats still above the bottle. Camera holds the same framing, no jump or cut. No fruit or bottle appears by a dissolve. Avoid: hands, people, text, labels, logos, cluttered background, dark or moody lighting, cuts, camera shake, extra objects, cartoon style."
+    },
+    {
+      "id": "04",
+      "name": "The press",
+      "firstFrame": "end-03.png",
+      "lastFrame": "end-04.png",
+      "referenceImage": "reference-melon.png",
+      "prompt": "Bright natural daylight product photography, white seamless studio surface with a soft warm sunlit glow from the upper left, gentle soft shadows, ultra clean, fresh, high-end beverage commercial, shallow depth of field, 50mm lens, subject positioned in the left half of the frame with clean empty white space on the right. No hands, no people, no text, no logos, no labels, no watermark. A clear empty glass bottle without a cap already stands beneath the floating cubes. The four empty rinds and the single retained thin watermelon slice are present from the first frame. Shot list. 0 to 2s: cubes gather into a dense cluster directly over the open bottle; the empty rinds glide slowly out of frame toward the lower left, while the thin slice remains stationary beside the bottle. 2 to 4s: the cluster compresses into glossy red liquid. 4 to 7s: one smooth narrow stream falls straight into the bottle mouth, filling it to the neck, with only a few small droplets landing nearby. 7 to 8s: the stream thins and stops, leaving the full bottle and the same slice beside it exactly as in the last frame. Slow motion. Bottle scale and position remain locked throughout. Camera remains steady. No new wedge appears, no bottle morphing, no hard transitions. Avoid: hands, people, text, labels, logos, cluttered background, dark or moody lighting, cuts, camera shake, extra objects, cartoon style."
+    },
+    {
+      "id": "05",
+      "name": "The bottle",
+      "firstFrame": "end-04.png",
+      "lastFrame": "end-05.png",
+      "referenceImage": "reference-melon.png",
+      "prompt": "Bright natural daylight product photography, white seamless studio surface with a soft warm sunlit glow from the upper left, gentle soft shadows, ultra clean, fresh, high-end beverage commercial, shallow depth of field, 50mm lens, subject positioned in the left half of the frame with clean empty white space on the right. No hands, no people, no text, no logos, no labels, no watermark. One watermelon slice already rests beside the full uncapped bottle. Shot list. 0 to 1s: the full bottle stands still. 1 to 3s: a plain silver cap lowers slowly from above and seals the bottle. 3 to 6s: fine condensation beads spread across the glass; a tall clear glass filled only with ice slides gently into view from the left and stops at the exact last-frame position to the left of the bottle. 6 to 8s: the bottle makes a gentle quarter turn in place then comes to rest. The original slice stays fixed. Steady camera. The bottle keeps the same shape, size and surface position. Glass entry is a physical sliding motion, never a dissolve. Avoid: hands, people, text, labels, logos, cluttered background, dark or moody lighting, cuts, camera shake, extra objects, cartoon style."
+    },
+    {
+      "id": "06",
+      "name": "The pour",
+      "firstFrame": "end-05.png",
+      "lastFrame": "end-06.png",
+      "referenceImage": "reference-melon.png",
+      "prompt": "Bright natural daylight product photography, white seamless studio surface with a soft warm sunlit glow from the upper left, gentle soft shadows, ultra clean, fresh, high-end beverage commercial, shallow depth of field, 50mm lens, subject positioned in the left half of the frame with clean empty white space on the right. No hands, no people, no text, no logos, no labels, no watermark. A tall glass containing ice already stands to the left of the full capped bottle. Keep the glass and watermelon slice stationary in their exact supplied positions. The full silhouette of every object must stay in the left 55 percent throughout. The right 45 percent is an untouched empty white background. Shot list. 0 to 1s: everything rests still. 1 to 2s: the silver cap lifts and exits upward. 2 to 6s: the bottle lifts only slightly and tips diagonally toward the camera and left over the ice glass. Use a foreshortened three-quarter tilt in depth, not a long horizontal broadside view. Keep the bottle base and its entire body left of 53 percent of the image width, with its mouth just over the stationary glass. One smooth narrow red stream pours from the mouth onto the ice; the glass fills with a gentle splash and small bubbles. 6 to 7s: the bottle slowly rights itself and settles at its original position, uncapped and half full, beside the full glass. 7 to 8s: hold the supplied last frame. Preserve the bottle size, thickness, shape and glass material without stretching or shrinking. Locked camera, no pan or zoom. No object crosses into the empty right side. Avoid: hands, people, text, labels, logos, cluttered background, dark or moody lighting, cuts, camera shake, extra objects, cartoon style.",
+      "seed": 9042028,
+      "retryReason": "Attempt 1 poured cleanly but its broadside tilt entered the reserved right side. Use a foreshortened tilt and a new seed for this failed clip only."
+    }
+  ],
+  "presentation": {
+    "desktopFrameWidthPercent": 84,
+    "mobileFrameWidthPercent": 150,
+    "mobileLeftOffsetPercent": 2,
+    "sourceSubjectSafetyExtentPercent": 65,
+    "reason": "The pour remains wider than the source composition prompt; uniform display scaling across all scenes keeps the action before desktop copy and fully visible on mobile without editing the generated motion."
+  }
+}

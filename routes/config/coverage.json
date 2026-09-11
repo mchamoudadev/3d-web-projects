@@ -1,0 +1,5 @@
+{
+  "name": "Greater Mogadishu",
+  "bbox": [45.20, 1.78, 45.56, 2.18],
+  "description": "Rectangular extract covering the OSM Banaadir administrative boundary and the northern and western urban fringe. This is a data coverage area, not a new administrative boundary."
+}

@@ -1,0 +1,39 @@
+{
+  "projects": {
+    "water": {
+      "copiedFiles": 2066,
+      "bytes": 150071867
+    },
+    "routes": {
+      "copiedFiles": 114,
+      "bytes": 23947089
+    },
+    "with-person": {
+      "copiedFiles": 33,
+      "bytes": 358092
+    },
+    "espresso-3d": {
+      "copiedFiles": 24,
+      "bytes": 276175
+    }
+  },
+  "excludedGeneratedDirectories": {
+    "water": [
+      "media/clips/archive",
+      "media/review",
+      "media/hosting",
+      "media/jobs"
+    ],
+    "routes": [
+      "public/vendor",
+      "data/osrm",
+      "data/raw",
+      "data/reports"
+    ],
+    "with-person": [],
+    "espresso-3d": []
+  },
+  "environmentFilesRemoved": 6,
+  "credentialOccurrencesRedactedFiles": [],
+  "notes": "Original Git histories, dependency folders, caches, provider job records and deployment archives are excluded. Map source extracts and OSRM graphs are recreated with routes/scripts. Public PMTiles and accepted Slice source media are included."
+}

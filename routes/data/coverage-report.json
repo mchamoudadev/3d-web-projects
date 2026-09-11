@@ -1,0 +1,41 @@
+{
+  "generated": "2026-09-09T10:58:58.113Z",
+  "source": "Geofabrik Somalia / OpenStreetMap",
+  "coverage": {
+    "name": "Greater Mogadishu",
+    "bbox": [
+      45.2,
+      1.78,
+      45.56,
+      2.18
+    ],
+    "description": "Rectangular extract covering the OSM Banaadir administrative boundary and the northern and western urban fringe. This is a data coverage area, not a new administrative boundary."
+  },
+  "counts": {
+    "walls": 597,
+    "runways": 4,
+    "buildings": 466879,
+    "heightOrLevels": 158,
+    "roofShape": 1103,
+    "facadeColour": 1,
+    "roofColour": 1,
+    "roadFeatures": 16570,
+    "distinctRoadNames": 172,
+    "osmSearchPlaces": 508
+  },
+  "artifacts": {
+    "pbf": {
+      "path": "data/osrm/mogadishu.osm.pbf",
+      "bytes": 14125728
+    },
+    "fullGeometry": {
+      "path": "data/raw/mogadishu.geojsonseq",
+      "description": "Exported OSM geometries and their original tags. The PBF also preserves OSM relations and non-geometric objects."
+    },
+    "tiles": {
+      "path": "public/tiles/mogadishu.pmtiles",
+      "bytes": 21590413
+    }
+  },
+  "limitations": "OSM coverage is incomplete. Unmapped heights, facades and entrances are estimates. This is not photographic 3D."
+}

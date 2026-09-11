@@ -1,0 +1,17 @@
+node_modules/
+.next/
+.env*
+data/raw/
+data/osrm/
+data/reports/
+*.tsbuildinfo
+test-results/
+.DS_Store
+.playwright-cli/
+output/
+
+public/vendor/
+
+# Environment files are never distributed, including examples.
+.env*
+*.env

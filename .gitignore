@@ -1,0 +1,27 @@
+# Never commit environment files or credentials (including examples)
+.env*
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+.npmrc
+# Dependencies and generated machine state
+node_modules/
+.next/
+.next-production/
+.vinext/
+.wrangler/
+.sites-runtime/
+dist/
+out/
+output/
+outputs/
+coverage/
+test-results/
+.playwright-cli/
+*.tsbuildinfo
+*.log
+.DS_Store
+._*

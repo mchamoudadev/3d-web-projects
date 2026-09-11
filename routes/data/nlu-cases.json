@@ -1,0 +1,194 @@
+[
+  {
+    "text": "I need to go to Banadir Hospital from Liido",
+    "origin": "liido-beach",
+    "destination": "banadir-hospital",
+    "language": "en"
+  },
+  {
+    "text": "I need to go to Medina hospital from Bakaara",
+    "origin": "bakaara-market",
+    "destination": "madina-hospital",
+    "language": "en"
+  },
+  {
+    "text": "Take me to Liido Beach from KM4",
+    "origin": "km4",
+    "destination": "liido-beach",
+    "language": "en"
+  },
+  {
+    "text": "Drive from Madina Hospital to Bakaara Market",
+    "origin": "madina-hospital",
+    "destination": "bakaara-market",
+    "language": "en"
+  },
+  {
+    "text": "How do I get to the Turkish Hospital?",
+    "origin": null,
+    "destination": "erdogan-hospital",
+    "language": "en"
+  },
+  {
+    "text": "I want to visit Villa Somalia",
+    "origin": null,
+    "destination": "villa-somalia",
+    "language": "en"
+  },
+  {
+    "text": "Go to the National Theatre",
+    "origin": null,
+    "destination": "national-theatre",
+    "language": "en"
+  },
+  {
+    "text": "From Peace Garden to Mogadishu Port",
+    "origin": "peace-garden",
+    "destination": "port",
+    "language": "en"
+  },
+  {
+    "text": "From SOS Hospital to Keysane Hospital",
+    "origin": "sos-hospital",
+    "destination": "keysane-hospital",
+    "language": "en"
+  },
+  {
+    "text": "Take me to Kalkaal Hospital from Aden Adde Airport",
+    "origin": "airport",
+    "destination": "ambiguous",
+    "language": "en"
+  },
+  {
+    "text": "I am at Bakaara Market and need to reach Somali Parliament",
+    "origin": "bakaara-market",
+    "destination": "parliament",
+    "language": "en"
+  },
+  {
+    "text": "Route from SIMAD University to Somali National University",
+    "origin": "simad-university",
+    "destination": "national-university",
+    "language": "en"
+  },
+  {
+    "text": "Take me to Mogadishu Cathedral",
+    "origin": null,
+    "destination": "cathedral",
+    "language": "en"
+  },
+  {
+    "text": "I want to go to Daljirka Dahsoon",
+    "origin": null,
+    "destination": "daljirka",
+    "language": "en"
+  },
+  {
+    "text": "Directions to Arba Rukun Mosque",
+    "origin": null,
+    "destination": "arbaa-rukun",
+    "language": "en"
+  },
+  {
+    "text": "Take me to Madina district",
+    "origin": null,
+    "destination": "wadajir",
+    "language": "en"
+  },
+  {
+    "text": "waxaan rabaa inaan tago Isbitaalka Banaadir",
+    "origin": null,
+    "destination": "banadir-hospital",
+    "language": "so"
+  },
+  {
+    "text": "sidee ku tagaa isbitaalka madiina",
+    "origin": null,
+    "destination": "madina-hospital",
+    "language": "so"
+  },
+  {
+    "text": "Waxaan rabaa inaan tago Xeebta Liido",
+    "origin": null,
+    "destination": "liido-beach",
+    "language": "so"
+  },
+  {
+    "text": "I gee Suuqa Bakaaraha",
+    "origin": null,
+    "destination": "bakaara-market",
+    "language": "so"
+  },
+  {
+    "text": "Waxaan joogaa KM4, waxaan rabaa inaan tago Isbitaalka Kalkaal",
+    "origin": "km4",
+    "destination": "ambiguous",
+    "language": "so"
+  },
+  {
+    "text": "Ka tag Liido ilaa Isbitaalka Banaadir",
+    "origin": "liido-beach",
+    "destination": "banadir-hospital",
+    "language": "so"
+  },
+  {
+    "text": "Waxaan rabaa inaan tago Isbitaalka Turkiga",
+    "origin": null,
+    "destination": "erdogan-hospital",
+    "language": "so"
+  },
+  {
+    "text": "I gee Beerta Nabadda",
+    "origin": null,
+    "destination": "peace-garden",
+    "language": "so"
+  },
+  {
+    "text": "Sidee ku tagaa Tiyaatarka Qaranka?",
+    "origin": null,
+    "destination": "national-theatre",
+    "language": "so"
+  },
+  {
+    "text": "Waxaan rabaa inaan tago Jaamacadda Ummadda",
+    "origin": null,
+    "destination": "national-university",
+    "language": "so"
+  },
+  {
+    "text": "Sidee ku tagaa Dekedda Muqdisho?",
+    "origin": null,
+    "destination": "port",
+    "language": "so"
+  },
+  {
+    "text": "Waxaan joogaa Isbitaalka SOS, waxaan rabaa inaan tago Isbitaalka Keysane",
+    "origin": "sos-hospital",
+    "destination": "keysane-hospital",
+    "language": "so"
+  },
+  {
+    "text": "I gee Madaxtooyada Soomaaliya",
+    "origin": null,
+    "destination": "villa-somalia",
+    "language": "so"
+  },
+  {
+    "text": "Waxaan rabaa inaan tago Garoonka Aadan Cadde",
+    "origin": null,
+    "destination": "airport",
+    "language": "so"
+  },
+  {
+    "text": "Take me to Madina",
+    "origin": null,
+    "destination": "ambiguous",
+    "language": "en"
+  },
+  {
+    "text": "Take me to مستشفى المدينة",
+    "origin": null,
+    "destination": "madina-hospital",
+    "language": "en"
+  }
+]

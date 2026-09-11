@@ -1,0 +1,21 @@
+{
+  "dropNames": [
+    "ex dugsi sare banadir"
+  ],
+  "overrides": [
+    {
+      "osm_id": "w1012476806",
+      "name": "Kalkaal Hospital",
+      "category": "hospital",
+      "district": "Near Hodan",
+      "description": "A separate OSM building named Kalkaal Hospital near Hodan. Confirm the branch before choosing this destination."
+    },
+    {
+      "osm_id": "w1289093065",
+      "name": "Kalkaal Hospital",
+      "category": "hospital",
+      "district": "Near Hodan",
+      "description": "A separate OSM building named Kalkaal Hospital near Hodan. Confirm the branch before choosing this destination."
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "createdAt": "2026-09-09T11:51:44.179Z",
+  "model": "bytedance/seedance-2.5",
+  "clips": [
+    {
+      "scene": "01",
+      "width": 1280,
+      "height": 720,
+      "duration": 8.041667,
+      "frames": 193,
+      "fps": "24/1",
+      "silent": true,
+      "metrics": {
+        "first": {
+          "expected": "end-00.png",
+          "ssim": 0.971159
+        },
+        "last": {
+          "expected": "end-01.png",
+          "ssim": 0.977952
+        }
+      },
+      "visualReview": "accepted",
+      "reviewedAt": "2026-09-09T11:29:57.819Z",
+      "notes": [
+        "Inspected 16 motion samples and eight first/last-second samples.",
+        "Revised camera micro-arc preserves the melon scale and left-side silhouette, keeping the headline area clear.",
+        "Lighting and surface remain stable; no sampled labels, text, hands or end snap.",
+        "Motion is deliberately much smaller than the original quarter-orbit brief to preserve the supplied boundary composition."
+      ],
+      "composition": {
+        "framesAnalyzed": 193,
+        "rightmostSaturatedPixelPercent": 52.08,
+        "atFrame": 0,
+        "analysisSize": [
+          384,
+          216
+        ],
+        "note": "Color-only supporting check across every decoded frame; does not segment transparent glass."
+      },
+      "seed": 9042027,
+      "videoSha256": "e5583a173166b957c570923dcf670ecf6584035f82bfde3e603c9ca17a8670b8",
+      "costUSD": 1.85859,
+      "assets": {
+        "desktop": {
+          "count": 193,
+          "pattern": "/frames/desktop/s01/frame-{frame}.webp",
+          "fps": 24,
+          "width": 1280,
+          "bytes": 9155606
+        },
+        "mobile": {
+          "count": 129,
+          "pattern": "/frames/mobile/s01/frame-{frame}.webp",
+          "fps": 16,
+          "width": 960,
+          "bytes": 4145556
+        }
+      }
+    },
+    {
+      "scene": "02",
+      "width": 1280,
+      "height": 720,
+      "duration": 8.041667,
+      "frames": 193,
+      "fps": "24/1",
+      "silent": true,
+      "metrics": {
+        "first": {
+          "expected": "end-01.png",
+          "ssim": 0.979572
+        },
+        "last": {
+          "expected": "end-02.png",
+          "ssim": 0.980004
+        }
+      },
+      "visualReview": "accepted",
+      "reviewedAt": "2026-09-09T11:41:00.407Z",
+      "notes": [
+        "Inspected 16 motion samples and eight first/last-second samples.",
+        "Front slice separates and settles; remaining melon opens into four wedges on the left.",
+        "Surface, framing and lighting remain stable; ending holds on the selected wedge arrangement.",
+        "The separating slice eases into its final wedge shape during the stylized motion. No sampled text, labels or hands."
+      ],
+      "seed": 9042026,
+      "videoSha256": "e29c49f2edcf3c6409716c9d29ea7a66585cb029d5da52893b59bd5182f6431a",
+      "costUSD": 1.85859,
+      "assets": {
+        "desktop": {
+          "count": 193,
+          "pattern": "/frames/desktop/s02/frame-{frame}.webp",
+          "fps": 24,
+          "width": 1280,
+          "bytes": 7444280
+        },
+        "mobile": {
+          "count": 129,
+          "pattern": "/frames/mobile/s02/frame-{frame}.webp",
+          "fps": 16,
+          "width": 960,
+          "bytes": 3491526
+        }
+      }
+    },
+    {
+      "scene": "03",
+      "width": 1280,
+      "height": 720,
+      "duration": 8.041667,
+      "frames": 193,
+      "fps": "24/1",
+      "silent": true,
+      "metrics": {
+        "first": {
+          "expected": "end-02.png",
+          "ssim": 0.982707
+        },
+        "last": {
+          "expected": "end-03.png",
+          "ssim": 0.987519
+        }
+      },
+      "visualReview": "accepted",
+      "reviewedAt": "2026-09-09T11:50:55.869Z",
+      "notes": [
+        "Inspected 16 motion samples and eight first/last-second samples.",
+        "Flesh divides into cubes and rises above the rinds; the empty bottle enters physically from the lower-left foreground and moves back into its final position.",
+        "The foreground slice remains present. Spiral settles above the bottle, matching the press opening.",
+        "Bottle appears larger while in the foreground, then recedes into place. No sampled hands, labels or text; action stays in the presentation safety area."
+      ],
+      "seed": 9042026,
+      "videoSha256": "73e41b5444ee6880f77e7d9ef09e45b2cb54d527cafea5b845c2921e96806416",
+      "costUSD": 1.85859,
+      "assets": {
+        "desktop": {
+          "count": 193,
+          "pattern": "/frames/desktop/s03/frame-{frame}.webp",
+          "fps": 24,
+          "width": 1280,
+          "bytes": 7604946
+        },
+        "mobile": {
+          "count": 129,
+          "pattern": "/frames/mobile/s03/frame-{frame}.webp",
+          "fps": 16,
+          "width": 960,
+          "bytes": 3501534
+        }
+      }
+    },
+    {
+      "scene": "04",
+      "width": 1280,
+      "height": 720,
+      "duration": 8.041667,
+      "frames": 193,
+      "fps": "24/1",
+      "silent": true,
+      "metrics": {
+        "first": {
+          "expected": "end-03.png",
+          "ssim": 0.989605
+        },
+        "last": {
+          "expected": "end-04.png",
+          "ssim": 0.990408
+        }
+      },
+      "visualReview": "accepted",
+      "reviewedAt": "2026-09-09T11:17:00.273Z",
+      "notes": [
+        "Inspected 16 motion samples, eight boundary samples and the actual last frame.",
+        "Cubes gather, compress into liquid and fill the same bottle. Rinds roll/slide out to the left; foreground slice stays put.",
+        "No sampled hands, labels or text. White surface and light direction stay consistent.",
+        "Liquid briefly stretches above the top of the frame during the stylized compression; ending settles without a visible sampled snap."
+      ],
+      "seed": 9042026,
+      "videoSha256": "425b7a11862bf20b855e0e59ea63f4bfd874172a59cf9024806a9112b7fbe3ed",
+      "costUSD": 1.85859,
+      "assets": {
+        "desktop": {
+          "count": 193,
+          "pattern": "/frames/desktop/s04/frame-{frame}.webp",
+          "fps": 24,
+          "width": 1280,
+          "bytes": 4690224
+        },
+        "mobile": {
+          "count": 129,
+          "pattern": "/frames/mobile/s04/frame-{frame}.webp",
+          "fps": 16,
+          "width": 960,
+          "bytes": 2177754
+        }
+      }
+    },
+    {
+      "scene": "05",
+      "width": 1280,
+      "height": 720,
+      "duration": 8.041667,
+      "frames": 193,
+      "fps": "24/1",
+      "silent": true,
+      "metrics": {
+        "first": {
+          "expected": "end-04.png",
+          "ssim": 0.992059
+        },
+        "last": {
+          "expected": "end-05.png",
+          "ssim": 0.987221
+        }
+      },
+      "visualReview": "accepted",
+      "reviewedAt": "2026-09-09T11:22:37.297Z",
+      "notes": [
+        "Inspected 16 motion samples and eight samples across the first and last seconds.",
+        "Cap lowers and seals; ice glass slides physically in from the left behind the stationary slice.",
+        "Same bottle placement and white surface; right side remains clear. No sampled labels, hands or text.",
+        "Cap seals earlier than the prompt timing; secondary bottle rotation and condensation are subtle. End hold matches the planned still."
+      ],
+      "composition": {
+        "framesAnalyzed": 193,
+        "rightmostSaturatedPixelPercent": 54.43,
+        "atFrame": 93,
+        "analysisSize": [
+          384,
+          216
+        ],
+        "note": "Color-only supporting check across every decoded frame; does not segment transparent glass."
+      },
+      "seed": 9042026,
+      "videoSha256": "aed50b49d45771d9aa3e8f053bc1ac7a786c7363b2b5f651f802ca48e2ec3b36",
+      "costUSD": 1.85859,
+      "assets": {
+        "desktop": {
+          "count": 193,
+          "pattern": "/frames/desktop/s05/frame-{frame}.webp",
+          "fps": 24,
+          "width": 1280,
+          "bytes": 4472284
+        },
+        "mobile": {
+          "count": 129,
+          "pattern": "/frames/mobile/s05/frame-{frame}.webp",
+          "fps": 16,
+          "width": 960,
+          "bytes": 2018702
+        }
+      }
+    },
+    {
+      "scene": "06",
+      "width": 1280,
+      "height": 720,
+      "duration": 8.041667,
+      "frames": 193,
+      "fps": "24/1",
+      "silent": true,
+      "metrics": {
+        "first": {
+          "expected": "end-05.png",
+          "ssim": 0.988614
+        },
+        "last": {
+          "expected": "end-06.png",
+          "ssim": 0.987112
+        }
+      },
+      "visualReview": "accepted",
+      "reviewedAt": "2026-09-09T11:47:13.155Z",
+      "notes": [
+        "Inspected 16 motion samples and eight first/last-second samples.",
+        "Cap exits, bottle pours a coherent stream over ice, then returns half full to the matching end frame. No sampled labels, hands or text.",
+        "The retry did not obey the requested foreshortened tilt: the raw bottle extends beyond the source left-55% guide during the pour.",
+        "Accepted for the site using uniform presentation framing across every scene: desktop image width 84%, mobile width 150% with a 2% left offset. This accommodates a source subject extent of up to 65% without cropping or entering desktop copy. Original video pixels and scene joins are preserved."
+      ],
+      "composition": {
+        "framesAnalyzed": 193,
+        "rightmostSaturatedPixelPercent": 61.98,
+        "atFrame": 103,
+        "desktopPresentedPercent": 52.06,
+        "mobilePresentedPercent": 94.97,
+        "note": "Color-only supporting check; does not segment transparent glass. Visual review confirms the full bottle fits within the 65% source safety guide."
+      },
+      "seed": 9042028,
+      "videoSha256": "654fc3cf12d383b1c5149f63e073fd9b0b595d9598839dee960403f10ba6fe6d",
+      "costUSD": 1.85859,
+      "assets": {
+        "desktop": {
+          "count": 193,
+          "pattern": "/frames/desktop/s06/frame-{frame}.webp",
+          "fps": 24,
+          "width": 1280,
+          "bytes": 4993646
+        },
+        "mobile": {
+          "count": 129,
+          "pattern": "/frames/mobile/s06/frame-{frame}.webp",
+          "fps": 16,
+          "width": 960,
+          "bytes": 2275078
+        }
+      }
+    }
+  ],
+  "seams": [
+    {
+      "from": "01",
+      "to": "02",
+      "ssim": {
+        "fullFrame": 0.989016,
+        "subjectArea": 0.98311
+      }
+    },
+    {
+      "from": "02",
+      "to": "03",
+      "ssim": {
+        "fullFrame": 0.989208,
+        "subjectArea": 0.98439
+      }
+    },
+    {
+      "from": "03",
+      "to": "04",
+      "ssim": {
+        "fullFrame": 0.990659,
+        "subjectArea": 0.987571
+      }
+    },
+    {
+      "from": "04",
+      "to": "05",
+      "ssim": {
+        "fullFrame": 0.992254,
+        "subjectArea": 0.990508
+      }
+    },
+    {
+      "from": "05",
+      "to": "06",
+      "ssim": {
+        "fullFrame": 0.991123,
+        "subjectArea": 0.989071
+      }
+    }
+  ],
+  "seamVisualReview": "accepted",
+  "selectedClipsCostUSD": 11.15154,
+  "archivedAttempts": [
+    {
+      "scene": "01",
+      "seed": 9042026,
+      "costUSD": 1.85859,
+      "status": "completed"
+    },
+    {
+      "scene": "06",
+      "seed": 9042026,
+      "costUSD": 1.85859,
+      "status": "completed"
+    }
+  ],
+  "totalCostUSD": 14.86872,
+  "totalDurationSeconds": 48.250002,
+  "totalFrames": {
+    "desktop": 1158,
+    "mobile": 774
+  },
+  "seamReviewedAt": "2026-09-09T11:52:30.438Z",
+  "seamNotes": [
+    "All five actual last-frame/next-first-frame pairs were inspected side by side.",
+    "Fruit, bottle, glass, surface and light align across the joins. Minor compression and generative pixel variations remain.",
+    "First and last seconds of each clip were separately sampled to check that the boundary is reached gradually."
+  ],
+  "combinedVideo": {
+    "localPath": "media/slice-story.mp4",
+    "durationSeconds": 48.25,
+    "frames": 1158,
+    "width": 1280,
+    "height": 720,
+    "silent": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "status": "accepted",
+  "reviewer": "Codex visual review",
+  "reviewedAt": "2026-09-09T11:08:49.907Z",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "notes": [
+    "Inspected selected originals and final cropped seven-frame contact sheet.",
+    "Subjects fit left 55%; right remains clear for copy.",
+    "Bottle, foreground slice, glass placement and light direction are consistent across transitions.",
+    "Minor generative pixel variation remains."
+  ],
+  "sha256": {
+    "reference-melon.png": "f36e6011adf04a82483ff96178793af51ad508d5397dd9230fd5da6eb2d41525",
+    "end-00.png": "f36e6011adf04a82483ff96178793af51ad508d5397dd9230fd5da6eb2d41525",
+    "end-01.png": "b8dd578cdb865a917ae5adac036d2c958dfe3489c70b5803ddf6c0b97f820c67",
+    "end-02.png": "ea26fefb1852aafee201d8d8551da9cda3194ff969a7937865125bc41eeb0347",
+    "end-03.png": "909ab7a5be8b16cfc763dc16fbf41deeecdd1d5855e2e876e427b181eab90be3",
+    "end-04.png": "5392b1cd7a76390bf69c249ef7d763af8074b59941f2e5bdde42ab721d637a62",
+    "end-05.png": "05e23d6942d9434f037618798b1ab5abe69806f73004a3c58c8c47cfbbc05f02",
+    "end-06.png": "ea9af4dea036e6f7a146864138cfdb5a39f0f13e8da8e0e4b2ba6e04fd332733"
+  }
+}

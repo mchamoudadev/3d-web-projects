@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "scenes": [
+    {
+      "id": "01",
+      "poster": "/stills/reference-melon.webp",
+      "desktop": {
+        "count": 193,
+        "pattern": "/frames/desktop/s01/frame-{frame}.webp",
+        "fps": 24,
+        "width": 1280
+      },
+      "mobile": {
+        "count": 129,
+        "pattern": "/frames/mobile/s01/frame-{frame}.webp",
+        "fps": 16,
+        "width": 960
+      }
+    },
+    {
+      "id": "02",
+      "poster": "/stills/end-02.webp",
+      "desktop": {
+        "count": 193,
+        "pattern": "/frames/desktop/s02/frame-{frame}.webp",
+        "fps": 24,
+        "width": 1280
+      },
+      "mobile": {
+        "count": 129,
+        "pattern": "/frames/mobile/s02/frame-{frame}.webp",
+        "fps": 16,
+        "width": 960
+      }
+    },
+    {
+      "id": "03",
+      "poster": "/stills/end-03.webp",
+      "desktop": {
+        "count": 193,
+        "pattern": "/frames/desktop/s03/frame-{frame}.webp",
+        "fps": 24,
+        "width": 1280
+      },
+      "mobile": {
+        "count": 129,
+        "pattern": "/frames/mobile/s03/frame-{frame}.webp",
+        "fps": 16,
+        "width": 960
+      }
+    },
+    {
+      "id": "04",
+      "poster": "/stills/end-04.webp",
+      "desktop": {
+        "count": 193,
+        "pattern": "/frames/desktop/s04/frame-{frame}.webp",
+        "fps": 24,
+        "width": 1280
+      },
+      "mobile": {
+        "count": 129,
+        "pattern": "/frames/mobile/s04/frame-{frame}.webp",
+        "fps": 16,
+        "width": 960
+      }
+    },
+    {
+      "id": "05",
+      "poster": "/stills/end-05.webp",
+      "desktop": {
+        "count": 193,
+        "pattern": "/frames/desktop/s05/frame-{frame}.webp",
+        "fps": 24,
+        "width": 1280
+      },
+      "mobile": {
+        "count": 129,
+        "pattern": "/frames/mobile/s05/frame-{frame}.webp",
+        "fps": 16,
+        "width": 960
+      }
+    },
+    {
+      "id": "06",
+      "poster": "/stills/end-06.webp",
+      "desktop": {
+        "count": 193,
+        "pattern": "/frames/desktop/s06/frame-{frame}.webp",
+        "fps": 24,
+        "width": 1280
+      },
+      "mobile": {
+        "count": 129,
+        "pattern": "/frames/mobile/s06/frame-{frame}.webp",
+        "fps": 16,
+        "width": 960
+      }
+    }
+  ]
+}

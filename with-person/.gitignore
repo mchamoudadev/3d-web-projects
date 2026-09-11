@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+output/
+*.tsbuildinfo
+.DS_Store
+
+.playwright-cli/
+
+# Environment files are never distributed, including examples.
+.env*
+*.env

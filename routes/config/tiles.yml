@@ -1,0 +1,115 @@
+schema_name: Muqdisho 3D
+schema_description: Greater Mogadishu from OpenStreetMap only
+version: 1
+attribution: '&copy; OpenStreetMap contributors'
+sources:
+  osm:
+    type: osm
+    local_path: /work/data/osrm/mogadishu.osm.pbf
+layers:
+  - id: building
+    buffer: 8
+    features:
+      - source: osm
+        geometry: polygon
+        min_zoom: 13
+        min_size_at_max_zoom: 0
+        tolerance_at_max_zoom: 0
+        include_when: { building: __any__ }
+        attributes:
+          - { key: area, value: "${ feature.area('m2') }" }
+          - { key: building, tag_value: building }
+          - { key: height, tag_value: height }
+          - { key: levels, tag_value: 'building:levels' }
+          - { key: colour, tag_value: 'building:colour' }
+          - { key: material, tag_value: 'building:material' }
+          - { key: roof_shape, tag_value: 'roof:shape' }
+          - { key: roof_height, tag_value: 'roof:height' }
+          - { key: roof_colour, tag_value: 'roof:colour' }
+          - { key: roof_material, tag_value: 'roof:material' }
+          - { key: roof_direction, tag_value: 'roof:direction' }
+          - { key: religion, tag_value: religion }
+          - { key: amenity, tag_value: amenity }
+          - { key: name, tag_value: name }
+  - id: transportation
+    buffer: 8
+    features:
+      - source: osm
+        geometry: line
+        min_zoom: 10
+        min_size_at_max_zoom: 0
+        tolerance_at_max_zoom: 0
+        include_when: { highway: __any__ }
+        attributes:
+          - { key: class, tag_value: highway }
+          - { key: surface, tag_value: surface }
+          - { key: name, tag_value: name }
+          - { key: oneway, tag_value: oneway }
+          - { key: lanes, tag_value: lanes }
+          - { key: width, tag_value: width }
+          - { key: sidewalk, tag_value: sidewalk }
+  - id: water
+    features:
+      - source: osm
+        geometry: polygon
+        min_zoom: 10
+        include_when: { natural: water }
+        attributes:
+          - { key: name, tag_value: name }
+  - id: coast
+    features:
+      - source: osm
+        geometry: line
+        min_zoom: 10
+        include_when: { natural: coastline }
+  - id: landuse
+    features:
+      - source: osm
+        geometry: polygon
+        min_zoom: 10
+        include_when:
+          __any__:
+            - { landuse: __any__ }
+            - { leisure: __any__ }
+            - { natural: beach }
+            - { aeroway: apron }
+            - { amenity: parking }
+            - { man_made: pier }
+        attributes:
+          - { key: class, coalesce: [{ tag_value: leisure }, { tag_value: landuse }, { tag_value: natural }, { tag_value: aeroway }, { tag_value: amenity }, { tag_value: man_made }] }
+          - { key: sport, tag_value: sport }
+  - id: infrastructure
+    buffer: 8
+    features:
+      - source: osm
+        geometry: line
+        min_zoom: 13
+        min_size_at_max_zoom: 0
+        tolerance_at_max_zoom: 0
+        include_when:
+          __any__:
+            - { barrier: wall }
+            - { barrier: fence }
+            - { aeroway: runway }
+            - { aeroway: taxiway }
+            - { man_made: pier }
+            - { man_made: breakwater }
+        attributes:
+          - { key: class, coalesce: [{ tag_value: aeroway }, { tag_value: barrier }, { tag_value: man_made }] }
+          - { key: height, tag_value: height }
+          - { key: width, tag_value: width }
+  - id: natural
+    features:
+      - source: osm
+        geometry: point
+        min_zoom: 14
+        include_when: { natural: tree }
+  - id: place
+    features:
+      - source: osm
+        geometry: point
+        min_zoom: 10
+        include_when: { place: __any__ }
+        attributes:
+          - { key: name, tag_value: name }
+          - { key: class, tag_value: place }

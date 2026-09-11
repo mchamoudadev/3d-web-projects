@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-espresso: #12100e;
+  --color-cream: #f2e8d5;
+  --color-brass: #b8935a;
+  --color-heat: #ff6a1f;
+  --font-serif: "Fraunces Variable", Georgia, serif;
+  --font-mono: "JetBrains Mono Variable", monospace;
+}
+
+:root { color-scheme: dark; background: #12100e; color: #f2e8d5; }
+* { box-sizing: border-box; }
+html { scrollbar-width: none; }
+html::-webkit-scrollbar { display: none; }
+body { margin: 0; overscroll-behavior: none; }
+::selection { background: #b8935a; color: #12100e; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+.editorial { font-variation-settings: "opsz" 72, "SOFT" 15, "WONK" 1; }
+.canvas-frame { position: fixed; inset: 0; }
+.scene-copy { transition: opacity 100ms linear; }
+@media (prefers-reduced-motion: reduce) { .scene-copy { transition: none; } }

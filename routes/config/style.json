@@ -1,0 +1,9 @@
+{
+ "version":8,
+ "name":"Muqdisho, late afternoon",
+ "projection":{"type":"mercator"},
+ "sources":{},
+ "sky":{"sky-color":"#272d34","horizon-color":"#aaa08c","fog-color":"#8a806e","sky-horizon-blend":0.7,"horizon-fog-blend":0.7,"fog-ground-blend":0.35},
+ "light":{"anchor":"map","color":"#ffe2b0","intensity":0.55,"position":[1.5,220,38]},
+ "layers":[{"id":"ground","type":"background","paint":{"background-color":"#252723"}}]
+}

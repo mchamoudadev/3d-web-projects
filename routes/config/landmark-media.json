@@ -1,0 +1,66 @@
+{
+  "liido-beach": {
+    "src": "/photos/liido-beach.jpg",
+    "title": "Liido Beach.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liido_Beach.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Liido_Beach.jpg/1280px-Liido_Beach.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Uncannystranger",
+    "date": "2024-11-12",
+    "retrieved": "2026-09-09",
+    "sha256": "9d81be669e5f63b836787ea3efc8deefe85b9f1616e9f8a046fa32fadd06bc3c",
+    "cue": {
+      "en": "Remember the sandy beachfront and the row of buildings facing the sea.",
+      "so": "Xusuuso xeebta bacaadka ah iyo safka dhismayaasha badda u jeeda."
+    }
+  },
+  "daljirka": {
+    "src": "/photos/daljirka.jpg",
+    "title": "2015 12 New face of Mogadishu-12 (18262830843).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2015_12_New_face_of_Mogadishu-12_(18262830843).jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/2015_12_New_face_of_Mogadishu-12_%2818262830843%29.jpg/1280px-2015_12_New_face_of_Mogadishu-12_%2818262830843%29.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Ilyas Ahmed / AMISOM Public Information",
+    "date": "2015-06-12",
+    "retrieved": "2026-09-09",
+    "sha256": "8ab77e6af472c67a7ec9b4aed061c546a7fa2b34966a817d20117d34ddb377d4",
+    "cue": {
+      "en": "Look for the tall, tapered stone monument and the blue panel with a white star.",
+      "so": "Raadi taallada dheer ee dhagaxa ah iyo looxa buluugga ah ee xiddigta cad leh."
+    }
+  },
+  "cathedral": {
+    "src": "/photos/cathedral.jpg",
+    "title": "Cattedrale di Mogadiscio.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattedrale_di_Mogadiscio.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Cattedrale_di_Mogadiscio.jpg/1280px-Cattedrale_di_Mogadiscio.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Mar Sharb",
+    "date": "2022-05-07",
+    "retrieved": "2026-09-09",
+    "sha256": "bce28a55eeb44c66e918c050f71857dd7095123ff620a65fcec5359aca055098",
+    "cue": {
+      "en": "Look for the roofless stone facade, pointed arches and damaged tower.",
+      "so": "Raadi wejiga dhagaxa ah ee saqafka la’aanta ah, qaansooyinka iyo munaaradda burburtay."
+    }
+  },
+  "villa-somalia": {
+    "src": "/photos/villa-somalia.jpg",
+    "title": "Villa somalia.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Villa_somalia.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Villa_somalia.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Mustafa6barakat",
+    "date": "2012-12-01",
+    "retrieved": "2026-09-09",
+    "sha256": "a8b6bb0ce19b5c6761acb7fbcca142d38fe3f934296c6678e2b99d220e49b577",
+    "cue": {
+      "en": "This older photo shows a white, two-storey facade with a shaded entrance.",
+      "so": "Sawirkan hore wuxuu muujinayaa dhisme cad oo laba dabaq ah iyo albaab hadh leh."
+    }
+  }
+}
